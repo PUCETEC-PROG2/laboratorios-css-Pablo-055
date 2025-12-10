@@ -1,4 +1,22 @@
 /* Los estilos se aplican a todo el documento */
 body {
     
+    background-image: linear-gradient(135deg, rgba(207, 3, 3, 0.5), rgba(255, 0, 0, 0.5)),
+                      url('../assets/Images/vendeta.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: preconnect;
+}
+
+.Sobre {
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.Social-icon {
+
+    width: 50px;
 }
