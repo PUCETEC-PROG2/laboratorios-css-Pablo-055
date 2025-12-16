@@ -1,8 +1,8 @@
 /* Los estilos se aplican a todo el documento */
 body {
     
-    background-image: linear-gradient(135deg, rgba(207, 3, 3, 0.5), rgba(255, 0, 0, 0.5)),
-                      url('../assets/Images/vendeta.jpg');
+    background-image: linear-gradient(135deg, rgba(1, 1, 1, 0), rgba(4, 11, 31, 0)),
+                      url('../assets/Images/fondoododo.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -10,13 +10,71 @@ body {
 }
 
 .Sobre {
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
-    max-width: 800px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.923), rgba(0, 0, 0, 0.737));
+    max-width: 1000px;
     margin: auto;
+    border-radius: 1cap;
+    border-style: dashed;
+    border-color: rgb(226, 76, 0);
+
+}
+
+.profile {
+   
+    display: block; 
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
     
 }
+
+
+
 
 .Social-icon {
 
     width: 50px;
+    border-radius: 10cap;
 }
+
+.profile {
+    
+    width: 200px;
+    border-radius: 5cap;
+    color: #f36060;
+    background: linear-gradient(
+        to bottom, 
+        #ffc300 0%,    
+        #ff5733 50%,  
+        #c70039 100%    
+    );
+
+    
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.8),
+                0 0 40px rgba(255, 50, 0, 0.5);
+}
+
+
+
+.honk-uniquifier {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+}
+
