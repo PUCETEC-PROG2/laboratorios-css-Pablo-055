@@ -1,7 +1,7 @@
 /* Los estilos se aplican a todo el documento */
 body {
     
-    background-image: linear-gradient(135deg, rgba(1, 1, 1, 0), rgba(4, 11, 31, 0)),
+    background-image: linear-gradient(135deg, rgba(114, 104, 104, 0.315), rgba(114, 104, 104, 0.315)),
                       url('../assets/Images/fondoododo.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -10,11 +10,11 @@ body {
 }
 
 .Sobre {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.923), rgba(0, 0, 0, 0.737));
+    background: linear-gradient(0deg, rgba(37, 35, 58, 0.900), rgba(37, 35, 58, 0.900));
     max-width: 1000px;
     margin: auto;
-    border-radius: 1cap;
-    border-style: dashed;
+    border-radius: 1.5cap;
+    border-style:  dotted;
     border-color: rgb(226, 76, 0);
 
 }
@@ -56,6 +56,7 @@ body {
     
     box-shadow: 0 0 20px rgba(255, 100, 0, 0.8),
                 0 0 40px rgba(255, 50, 0, 0.5);
+    b
 }
 
 
@@ -78,3 +79,32 @@ body {
   
 }
 
+.icon {
+    font-size: 50px;
+    cursor: pointer
+
+
+
+}
+
+
+.network{
+    list-style: none;
+    min-height: 60px;
+
+}
+
+.network li{
+
+    float: left;
+    margin: 0 90px;
+}
+
+.blank{
+
+
+}
+
+li{
+   
+}
